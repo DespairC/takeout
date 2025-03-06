@@ -1,0 +1,28 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: takeout
+    username: root
+    password: root
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: LTAI5tPeuNEqfEv8FjWSbSxh
+    access-key-secret: nFwotFS7o05vy6VkLPooGP45yJbyNS
+    bucket-name: skybucketoss
+    upload-path: dish/
+  redis:
+    host: localhost
+    port: 6379
+    database: 10
+  wechat:
+    appid: wx508c8d4d7480e316
+    secret: 8064ac6d648b1c7081b865c2a7d0f214
+  excel:
+    filePath: C:\Users\Administrator\Desktop\学习资料\
+    sheet:
+      Sheet1,
+      sheet2,
+      sheet3,
+      sheet4
